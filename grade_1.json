@@ -1,0 +1,766 @@
+{
+  "grade_id": "grade_1",
+  "cefr": "A1",
+  "scenarios": [
+    {
+      "scenario_id": "scn_01",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_01__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_01__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_01__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_02",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_02__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_02__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_02__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_03",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_03__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_03__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_03__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_04",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_04__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_04__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_04__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_05",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_05__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_05__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_05__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_06",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_06__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_06__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_06__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_07",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_07__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_07__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_07__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "scn_08",
+      "themes": [
+        {
+          "theme_id": "th_1",
+          "resources": [
+            {
+              "id": "grade_1__scn_08__th_1__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_1__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_1__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_1__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_1__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        },
+        {
+          "theme_id": "th_2",
+          "resources": [
+            {
+              "id": "grade_1__scn_08__th_2__sk_listening__res_01",
+              "skill": "listening",
+              "title": "Listening resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_2__sk_speaking__res_02",
+              "skill": "speaking",
+              "title": "Speaking resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_2__sk_reading__res_03",
+              "skill": "reading",
+              "title": "Reading resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_2__sk_writing__res_04",
+              "skill": "writing",
+              "title": "Writing resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            },
+            {
+              "id": "grade_1__scn_08__th_2__sk_mediation__res_05",
+              "skill": "mediation",
+              "title": "Mediation resource",
+              "type": "online",
+              "source": "curated",
+              "alignment": "MEDUCA + CEFR aligned"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

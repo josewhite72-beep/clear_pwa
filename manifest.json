@@ -1,0 +1,90 @@
+{
+  "name": "CLEAR - Curriculum Learning Resources",
+  "short_name": "CLEAR",
+  "description": "Curriculum Learning & Educational Aligned Resources - Recursos de inglés alineados al currículo MEDUCA Panamá",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E8F5E9",
+  "theme_color": "#2E7D32",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es-PA",
+  "dir": "ltr",
+  "categories": ["education", "books"],
+  "icons": [
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot-mobile.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Pre-K Resources",
+      "short_name": "Pre-K",
+      "description": "Ver recursos para Pre-Kinder",
+      "url": "/?grade=prek",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Grade 1-3",
+      "short_name": "Primary",
+      "description": "Ver recursos para primaria",
+      "url": "/?grade=grade_1",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}

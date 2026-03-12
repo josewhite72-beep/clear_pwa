@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "project": "CuVA External Resources",
+    "disclaimer": "Independent project aligned with MEDUCA Panama curriculum. Not official MEDUCA content.",
+    "last_updated": "2024-02-18",
+    "total_resources": 15,
+    "verification_status": "CuVA Curated"
+  },
+  "resources": [
+    {
+      "id": "ext_001",
+      "title": "The Hello Song",
+      "description": "Greetings and introductions for beginners",
+      "url": "https://www.youtube.com/watch?v=tVlcKp3bO88",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "listening",
+        "theme": "greetings",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 120,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["song", "greetings", "beginner"]
+    },
+    {
+      "id": "ext_002",
+      "title": "Alphabet Phonics Song",
+      "description": "Letter sounds and phonics introduction",
+      "url": "https://www.youtube.com/watch?v=75p-NQkYK-g",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "listening",
+        "theme": "phonics",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 210,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["phonics", "alphabet", "song"]
+    },
+    {
+      "id": "ext_003",
+      "title": "British Council LearnEnglish Kids - Numbers",
+      "description": "Interactive games for numbers 1-20",
+      "url": "https://learnenglishkids.britishcouncil.org/category/topics/numbers",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "numbers",
+        "cefr": "A1"
+      },
+      "format": "interactive",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["numbers", "games", "interactive"]
+    },
+    {
+      "id": "ext_004",
+      "title": "Colors Song",
+      "description": "Learn color vocabulary with actions",
+      "url": "https://www.youtube.com/watch?v=qhOTU8_1v4Y",
+      "source": "Dream English Kids",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "speaking",
+        "theme": "colors",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 150,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["colors", "song", "tpr"]
+    },
+    {
+      "id": "ext_005",
+      "title": "Oxford Owl Free eBooks",
+      "description": "Graded readers for early readers",
+      "url": "https://home.oxfordowl.co.uk/reading/free-ebooks/",
+      "source": "Oxford University Press",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 600,
+      "language": "en",
+      "license": "free_registration",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["reading", "stories", "graded"]
+    },
+    {
+      "id": "ext_006",
+      "title": "Family Members Song",
+      "description": "Vocabulary for family relationships",
+      "url": "https://www.youtube.com/watch?v=kg-9bbde5H0",
+      "source": "Maple Leaf Learning",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "family",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 180,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["family", "song", "vocabulary"]
+    },
+    {
+      "id": "ext_007",
+      "title": "Cambridge English Games",
+      "description": "Interactive activities for young learners",
+      "url": "https://www.cambridgeenglish.org/learning-english/activities-for-learners/",
+      "source": "Cambridge Assessment English",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "A1+"
+      },
+      "format": "interactive",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["games", "interactive", "mixed_skills"]
+    },
+    {
+      "id": "ext_008",
+      "title": "Days of the Week Song",
+      "description": "Calendar vocabulary with catchy tune",
+      "url": "https://www.youtube.com/watch?v=36n93jvJKDg",
+      "source": "The Singing Walrus",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "calendar",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 165,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["calendar", "days", "song"]
+    },
+    {
+      "id": "ext_009",
+      "title": "StoryWeaver - English Stories",
+      "description": "Open source picture books",
+      "url": "https://storyweaver.org.in/stories?language=English",
+      "source": "Pratham Books",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 480,
+      "language": "en",
+      "license": "CC-BY",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["stories", "open_source", "picture_books"]
+    },
+    {
+      "id": "ext_010",
+      "title": "Body Parts Song - Head Shoulders",
+      "description": "Classic TPR song for body vocabulary",
+      "url": "https://www.youtube.com/watch?v=QkHQ0aE3B_4",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "speaking",
+        "theme": "body",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 135,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["body_parts", "tpr", "song"]
+    },
+    {
+      "id": "ext_011",
+      "title": "PhET English Simulations",
+      "description": "Interactive math and science in English",
+      "url": "https://phet.colorado.edu/en/simulations/filter?subjects=math&type=html",
+      "source": "University of Colorado",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "mediation",
+        "theme": "math_vocabulary",
+        "cefr": "A2"
+      },
+      "format": "interactive",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "CC-BY",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["math", "interactive", "clil"]
+    },
+    {
+      "id": "ext_012",
+      "title": "Weather Song",
+      "description": "Weather vocabulary and questions",
+      "url": "https://www.youtube.com/watch?v=I8GeA7anP1w",
+      "source": "Pancake Manor",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "weather",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 145,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["weather", "song", "questions"]
+    },
+    {
+      "id": "ext_013",
+      "title": "OpenLearn English Language",
+      "description": "Free courses for teachers and learners",
+      "url": "https://www.open.edu/openlearn/languages/english-language/content-section-0?active-tab=description-tab",
+      "source": "The Open University",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "writing",
+        "theme": "grammar",
+        "cefr": "A2"
+      },
+      "format": "course",
+      "duration_seconds": 3600,
+      "language": "en",
+      "license": "CC-BY-NC-SA",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["grammar", "course", "teacher_resource"]
+    },
+    {
+      "id": "ext_014",
+      "title": "Animals Song",
+      "description": "Zoo animal vocabulary and sounds",
+      "url": "https://www.youtube.com/watch?v=IwZPzhGQumk",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "listening",
+        "theme": "animals",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 175,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["animals", "sounds", "song"]
+    },
+    {
+      "id": "ext_015",
+      "title": "BBC Learning English - Kids",
+      "description": "Short dramas and activities",
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/drama",
+      "source": "BBC",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "listening",
+        "theme": "drama",
+        "cefr": "A2"
+      },
+      "format": "audio",
+      "duration_seconds": 300,
+      "language": "en",
+      "license": "free_bbc",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": ["drama", "audio", "advanced"]
+    }
+  ]
+}

@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CLEAR - Curriculum Learning & Educational Aligned Resources</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+<!-- PWA META TAGS -->
+<meta name="description" content="Recursos de inglés alineados al currículo MEDUCA Panamá para Pre-K a Grade 6">
+<meta name="theme-color" content="#2E7D32">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CLEAR">
+
+<!-- PWA MANIFEST -->
+<link rel="manifest" href="manifest.json">
+
+<!-- ICONOS PARA DISPOSITIVOS APPLE -->
+<link rel="apple-touch-icon" href="icon-192x192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="icon-192x192.png">
+<link rel="apple-touch-icon" sizes="512x512" href="icon-512x512.png">
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512x512.png">
+
+<!-- CARGAR CONFIG DE RECURSOS EXTERNOS -->
+<script src="js/resources_config.js"></script>
+<style>
+/* ===== RESET Y VARIABLES ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #2E7D32;
+  --primary-light: #66BB6A;
+  --primary-dark: #1B5E20;
+  --success: #4CAF50;
+  --warning: #FFC107;
+  --danger: #dc3545;
+  --gray: #6c757d;
+  --light: #f8f9fa;
+  --dark: #1B5E20;
+  --border: #C8E6C9;
+  --bg-main: #E8F5E9;
+  --bg-card: #FFFFFF;
+  --text-main: #1B5E20;
+  --text-secondary: #388E3C;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 0.75rem;
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: var(--text-main);
+  background: var(--bg-main);
+  font-size: 18px; /* AUMENTADO de 16px a 18px */
+}
+
+h1 {
+  font-size: 2.5rem; /* AUMENTADO de 2.2rem a 2.5rem */
+  margin-bottom: 0.25rem;
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem; /* AUMENTADO de 1.1rem a 1.2rem */
+  font-weight: 500;
+}
+
+.disclaimer-box {
+  background: #FFF8E1;
+  border: 1px solid #FFE082;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem; /* AUMENTADO de 1rem a 1.1rem */
+  color: var(--text-main);
+}
+
+.disclaimer-box .badge {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.9rem; /* AUMENTADO de 0.8rem a 0.9rem */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 0.25rem;
+  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.1);
+  border: 1px solid var(--border);
+}
+
+.tab {
+  flex: 1;
+  padding: 1rem 0.5rem; /* AUMENTADO padding */
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem; /* AUMENTADO de 1rem a 1.1rem */
+  transition: all 0.2s;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+.tab.active {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 2px 4px rgba(46, 125, 50, 0.3);
+}
+
+.filters-section {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.08);
+  border: 1px solid var(--border);
+}
+
+.filter-group {
+  margin-bottom: 0.75rem;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-label {
+  font-weight: 600;
+  font-size: 1.1rem; /* AUMENTADO de 1rem a 1.1rem */
+  margin-bottom: 0.25rem;
+  color: var(--text-secondary);
+  display: block;
+}
+
+.filter-select, 
+.filter-input {
+  width: 100%;
+  padding: 0.9rem; /* AUMENTADO de 0.85rem a 0.9rem */
+  font-size: 1.15rem; /* AUMENTADO de 1.05rem a 1.15rem */
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-main);
+  color: var(--text-main);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.filter-select:focus,
+.filter-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1);
+}
+
+.stats-bar {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.15rem; /* AUMENTADO de 1.05rem a 1.15rem */
+  color: var(--text-secondary);
+  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.08);
+  border: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.stats-bar strong {
+  color: var(--primary-dark);
+  font-size: 1.4rem; /* AUMENTADO de 1.3rem a 1.4rem */
+}
+
+.resources-container {
+  min-height: 50vh;
+}
+
+.resource-card {
+  background: var(--bg-card);
+  border-radius: 14px;
+  padding: 1.35rem; /* AUMENTADO de 1.25rem a 1.35rem */
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.08);
+  border-left: 4px solid var(--primary);
+  transition: transform 0.1s, box-shadow 0.2s;
+}
+
+.resource-card:active {
+  transform: scale(0.99);
+}
+
+.resource-card.external {
+  border-left-color: var(--primary);
+}
+
+.resource-card.config {
+  border-left-color: var(--warning);
+}
+
+.resource-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.resource-header h3 {
+  font-size: 1.4rem; /* AUMENTADO de 1.3rem a 1.4rem */
+  margin: 0;
+  color: var(--primary-dark);
+  flex: 1;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.badge {
+  font-size: 0.85rem; /* AUMENTADO de 0.75rem a 0.85rem */
+  padding: 0.4rem 0.75rem; /* AUMENTADO padding */
+  border-radius: 12px;
+  background: var(--bg-main);
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
+  border: 1px solid var(--border);
+}
+
+.badge.external {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.badge.config {
+  background: var(--warning);
+  color: var(--dark);
+  border-color: var(--warning);
+}
+
+.resource-meta {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 1.05rem; /* AUMENTADO de 0.95rem a 1.05rem */
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+
+.resource-standard {
+  font-size: 1.1rem; /* AUMENTADO de 1rem a 1.1rem */
+  color: var(--text-main);
+  margin-bottom: 0.4rem;
+  background: var(--bg-main);
+  padding: 0.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--primary-light);
+}
+
+.resource-outcome {
+  font-size: 1.1rem; /* AUMENTADO de 1rem a 1.1rem */
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.resource-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.tag {
+  background: var(--bg-main);
+  padding: 0.35rem 0.75rem; /* AUMENTADO */
+  border-radius: 12px;
+  font-size: 0.95rem; /* AUMENTADO de 0.85rem a 0.95rem */
+  color: var(--text-secondary);
+  font-weight: 500;
+  border: 1px solid var(--border);
+}
+
+.resource-link {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 1rem 1.3rem; /* AUMENTADO mucho más */
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.15rem; /* AUMENTADO de 1.05rem a 1.15rem */
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  transition: background 0.2s;
+  box-shadow: 0 2px 4px rgba(46, 125, 50, 0.2);
+}
+
+.resource-link:active {
+  background: var(--primary-dark);
+}
+
+.loading, .empty-state, .error-message {
+  text-align: center;
+  padding: 2rem;
+  background: var(--bg-card);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+.error-message {
+  color: var(--danger);
+  background: #FFEBEE;
+  border-color: #FFCDD2;
+}
+
+/* ===== ANIMACIONES PWA ===== */
+@keyframes slideDown {
+  from {
+    transform: translate(-50%, -100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, -100%);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 20px rgba(46, 125, 50, 0.6);
+  }
+}
+
+#installButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(46, 125, 50, 0.5);
+}
+
+#installButton:active {
+  transform: scale(0.98);
+}
+
+
+.scenario-section {
+  margin-bottom: 1.5rem;
+}
+
+.scenario-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid var(--primary);
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
+.skill-section {
+  margin-bottom: 1rem;
+}
+
+.skill-section h4 {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  border-top: 1px solid var(--border);
+  font-weight: 500;
+}
+
+/* Icono del libro */
+.logo-icon {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+/* Header con botón */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.header-left {
+  flex: 1;
+}
+
+/* Botón borrar caché */
+.cache-btn {
+  background: var(--warning);
+  color: var(--dark);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.2s;
+}
+
+.cache-btn:active {
+  transform: scale(0.95);
+  background: #FFB300;
+}
+
+/* Modal de confirmación */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  max-width: 90%;
+  width: 400px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.modal-content h3 {
+  margin: 0 0 1rem 0;
+  color: var(--primary-dark);
+  font-size: 1.3rem;
+}
+
+.modal-content p {
+  margin: 0 0 1.5rem 0;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modal-btn {
+  flex: 1;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.modal-btn-cancel {
+  background: var(--light);
+  color: var(--gray);
+}
+
+.modal-btn-confirm {
+  background: var(--danger);
+  color: white;
+}
+
+.modal-btn:active {
+  transform: scale(0.95);
+}
+
+</style>
+</head>
+<body>
+
+<div class="header-container">
+  <div class="header-left">
+    <h1><span class="logo-icon">📖</span> CLEAR</h1>
+    <p class="subtitle">Curriculum Learning & Educational Aligned Resources</p>
+  </div>
+  <button class="cache-btn" id="clearCacheBtn">🗑️ Borrar<br>Caché</button>
+</div>
+
+<!-- Modal de confirmación -->
+<div class="modal" id="cacheModal">
+  <div class="modal-content">
+    <h3>🗑️ Borrar Caché</h3>
+    <p>Esto eliminará todos los datos almacenados de esta app y forzará una recarga completa. <strong>Útil para ver actualizaciones.</strong></p>
+    <p style="font-size: 0.9rem; color: var(--gray);">Solo afecta a CLEAR, no a otras apps.</p>
+    <div class="modal-buttons">
+      <button class="modal-btn modal-btn-cancel" id="cancelBtn">Cancelar</button>
+      <button class="modal-btn modal-btn-confirm" id="confirmBtn">Borrar</button>
+    </div>
+  </div>
+</div>
+
+<div class="disclaimer-box">
+  <span class="badge">Independiente</span>
+  <p style="margin:0">Proyecto independiente para proveer al docente de inglés recursos alineados con el currículo para enriquecer su labor</p>
+</div>
+
+<div class="tabs">
+  <button class="tab active" id="tabAll">🌐 Todos (385)</button>
+  <button class="tab" id="tabExternal">📱 External (96)</button>
+  <button class="tab" id="tabConfig">📚 Config (150)</button>
+</div>
+
+<div class="filters-section">
+  <div class="filter-group">
+    <label class="filter-label">Grado</label>
+    <select id="gradeSelect" class="filter-select">
+      <option value="">Todos los grados</option>
+      <option value="prek">Pre-Kinder</option>
+      <option value="kinder">Kinder</option>
+      <option value="grade_1">Grade 1</option>
+      <option value="grade_2">Grade 2</option>
+      <option value="grade_3">Grade 3</option>
+      <option value="grade_4">Grade 4</option>
+      <option value="grade_5">Grade 5</option>
+      <option value="grade_6">Grade 6</option>
+    </select>
+  </div>
+  
+  <div class="filter-group">
+    <label class="filter-label">Skill</label>
+    <select id="skillSelect" class="filter-select">
+      <option value="">Todas las skills</option>
+      <option value="listening">🎧 Listening</option>
+      <option value="speaking">🗣️ Speaking</option>
+      <option value="reading">📖 Reading</option>
+      <option value="writing">✍️ Writing</option>
+      <option value="mediation">🤝 Mediation</option>
+    </select>
+  </div>
+  
+  <div class="filter-group">
+    <label class="filter-label">Formato</label>
+    <select id="formatSelect" class="filter-select">
+      <option value="">Todos los formatos</option>
+      <option value="video">🎬 Video</option>
+      <option value="interactive">🖱️ Interactive</option>
+      <option value="ebook">📱 E-book</option>
+      <option value="audio">🎧 Audio</option>
+      <option value="worksheet">📝 Worksheet</option>
+      <option value="game">🎮 Game</option>
+    </select>
+  </div>
+  
+  <div class="filter-group">
+    <label class="filter-label">Buscar</label>
+    <input type="text" id="searchInput" class="filter-input" placeholder="🔍 phonics, numbers, hello...">
+  </div>
+</div>
+
+<div class="stats-bar">
+  <span id="resourceCount">Cargando recursos...</span>
+</div>
+
+<div id="resourcesContainer" class="resources-container">
+  <div class="loading">⏳ Cargando recursos...</div>
+</div>
+
+<footer>
+  <p>CLEAR v2.0 · 96 external + 150 config = 385 recursos totales · Aligned with MEDUCA Panama</p>
+</footer>
+
+<script>
+// ============================================
+// CONFIGURACIÓN
+// ============================================
+const CONFIG = {
+    grades: [
+        { key: 'prek', name: 'Pre-Kinder', configKey: 'pre_k' },
+        { key: 'kinder', name: 'Kinder', configKey: 'kinder' },
+        { key: 'grade_1', name: 'Grade 1', configKey: 'grade_1' },
+        { key: 'grade_2', name: 'Grade 2', configKey: 'grade_2' },
+        { key: 'grade_3', name: 'Grade 3', configKey: 'grade_3' },
+        { key: 'grade_4', name: 'Grade 4', configKey: 'grade_4' },
+        { key: 'grade_5', name: 'Grade 5', configKey: 'grade_5' },
+        { key: 'grade_6', name: 'Grade 6', configKey: 'grade_6' }
+    ]
+};
+
+// ============================================
+// VARIABLES GLOBALES
+// ============================================
+let allResources = [];
+let externalResources = [];
+let configResources = [];
+let currentFilter = 'all'; // 'all', 'external', 'config'
+
+// Mapeos
+const GRADE_MAP = {
+    pre_k: 'prek',
+    kinder: 'kinder',
+    grade_1: 'grade_1',
+    grade_2: 'grade_2',
+    grade_3: 'grade_3',
+    grade_4: 'grade_4',
+    grade_5: 'grade_5',
+    grade_6: 'grade_6'
+};
+
+const CEFR_MAP = {
+    pre_k: 'Pre-A1',
+    kinder: 'Pre-A1',
+    grade_1: 'Pre-A1',
+    grade_2: 'Pre-A1',
+    grade_3: 'A1',
+    grade_4: 'A1',
+    grade_5: 'A1',
+    grade_6: 'A2'
+};
+
+const FORMAT_MAP = {
+    song: 'video',
+    action_song: 'video',
+    chant: 'video',
+    rap: 'video',
+    read_aloud: 'video',
+    pronunciation_video: 'video',
+    playlist: 'video',
+    ebook: 'ebook',
+    audio_story: 'audio',
+    interactive: 'interactive',
+    tongue_twister: 'interactive',
+    worksheet: 'worksheet',
+    drawing_activity: 'worksheet',
+    craft: 'interactive',
+    discussion_activity: 'interactive',
+    audio: 'audio',
+    collection: 'interactive',
+    platform: 'interactive',
+    game: 'game'
+};
+
+// ============================================
+// FUNCIONES DE CONVERSIÓN
+// ============================================
+
+function parseDuration(duration) {
+    if (!duration || duration === 'variable') return 300;
+    if (typeof duration === 'string' && duration.includes(':')) {
+        const parts = duration.split(':');
+        if (parts.length === 2) {
+            return parseInt(parts[0]) * 60 + parseInt(parts[1]);
+        }
+    }
+    if (typeof duration === 'number') return duration;
+    return 300;
+}
+
+function convertConfigResource(resource, gradeKey, scenarioKey, skill) {
+    const themeParts = scenarioKey.split('_');
+    const theme = themeParts.slice(2).join(' ').replace(/_/g, ' ');
+    
+    return {
+        id: resource.id,
+        title: resource.title,
+        description: resource.outcome || resource.standard || resource.title,
+        url: resource.url,
+        source: resource.source || 'Unknown',
+        source_type: 'config',
+        alignment: {
+            grade: GRADE_MAP[gradeKey] || gradeKey,
+            skill: skill,
+            theme: theme,
+            cefr: CEFR_MAP[gradeKey] || 'A1'
+        },
+        format: FORMAT_MAP[resource.type] || 'video',
+        duration_seconds: resource.duration ? parseDuration(resource.duration) : 300,
+        language: 'en',
+        license: 'free_educational',
+        verified_by: 'CLEAR Config',
+        date_added: EXTERNAL_RESOURCES_CONFIG?.lastUpdated || '2026-02-18',
+        tags: [skill, theme, resource.type, (resource.source || '').toLowerCase()],
+        original: { grade: gradeKey, scenario: scenarioKey, skill: skill }
+    };
+}
+
+function getConfigResources() {
+    if (typeof EXTERNAL_RESOURCES_CONFIG === 'undefined') {
+        console.error('❌ EXTERNAL_RESOURCES_CONFIG no está definido');
+        return [];
+    }
+
+    const converted = [];
+    const grades = EXTERNAL_RESOURCES_CONFIG.grades;
+    
+    if (!grades) return [];
+
+    // Recorrer todos los grados
+    for (const gradeKey in grades) {
+        const scenarios = grades[gradeKey];
+        
+        for (const scenarioKey in scenarios) {
+            const skills = scenarios[scenarioKey];
+            
+            for (const skill in skills) {
+                const resources = skills[skill];
+                
+                if (resources && resources.length > 0) {
+                    resources.forEach(resource => {
+                        try {
+                            converted.push(convertConfigResource(resource, gradeKey, scenarioKey, skill));
+                        } catch (e) {
+                            console.error('Error convirtiendo:', resource.id, e);
+                        }
+                    });
+                }
+            }
+        }
+    }
+    
+    // Procesar cross_grade
+    if (EXTERNAL_RESOURCES_CONFIG.cross_grade) {
+        for (const category in EXTERNAL_RESOURCES_CONFIG.cross_grade) {
+            EXTERNAL_RESOURCES_CONFIG.cross_grade[category].forEach(resource => {
+                if (resource.grades && Array.isArray(resource.grades)) {
+                    resource.grades.forEach(gradeKey => {
+                        try {
+                            converted.push({
+                                id: `${resource.id}_${gradeKey}`,
+                                title: resource.title,
+                                description: resource.outcome || resource.standard || resource.title,
+                                url: resource.url,
+                                source: resource.source || 'Unknown',
+                                source_type: 'config',
+                                alignment: {
+                                    grade: GRADE_MAP[gradeKey] || gradeKey,
+                                    skill: resource.skills ? resource.skills[0] : 'general',
+                                    theme: 'cross_grade',
+                                    cefr: CEFR_MAP[gradeKey] || 'A1'
+                                },
+                                format: FORMAT_MAP[resource.type] || 'interactive',
+                                duration_seconds: resource.duration ? parseDuration(resource.duration) : 600,
+                                language: 'en',
+                                license: 'free_educational',
+                                verified_by: 'CLEAR Config',
+                                date_added: EXTERNAL_RESOURCES_CONFIG.lastUpdated || '2026-02-18',
+                                tags: resource.skills || ['general'],
+                                original: { grade: gradeKey, category: category }
+                            });
+                        } catch (e) {
+                            console.error('Error cross_grade:', resource.id, e);
+                        }
+                    });
+                }
+            });
+        }
+    }
+    
+    return converted;
+}
+
+// ============================================
+// CONFIGURACIÓN DE FUENTES DE DATOS
+// ============================================
+
+const DATA_SOURCES = {
+    // Archivos JSON locales
+    jsonFiles: [
+        'data/external_links.json',
+        'data/external_links_96.json',  // Archivo con 96 recursos
+        // Agrega más archivos aquí cuando quieras
+        // 'data/my_resources.json',
+        // 'data/phonics_resources.json',
+    ],
+    
+    // Google Sheets públicas (opcional)
+    googleSheets: [
+        // Formato: ID de la hoja de Google Sheets
+        // Ejemplo: '1ABC...XYZ' (el ID que está en la URL)
+        // Deja vacío si no usas Google Sheets aún
+    ]
+};
+
+// ============================================
+// CARGA DE DATOS DESDE MÚLTIPLES FUENTES
+// ============================================
+
+async function loadAllResources() {
+    const container = document.getElementById('resourcesContainer');
+    
+    try {
+        console.log('🔄 Cargando recursos desde múltiples fuentes...\n');
+        
+        let jsonResources = [];
+        let sheetResources = [];
+        
+        // 1. Cargar archivos JSON
+        for (const file of DATA_SOURCES.jsonFiles) {
+            try {
+                const resources = await loadFromJSON(file);
+                jsonResources = [...jsonResources, ...resources];
+                console.log(`✅ ${file}: ${resources.length} recursos`);
+            } catch (e) {
+                console.warn(`⚠️ No se pudo cargar ${file}:`, e.message);
+            }
+        }
+        
+        // 2. Cargar Google Sheets
+        for (const sheetId of DATA_SOURCES.googleSheets) {
+            if (sheetId) {
+                try {
+                    const resources = await loadFromGoogleSheet(sheetId);
+                    sheetResources = [...sheetResources, ...resources];
+                    console.log(`✅ Google Sheet ${sheetId.substring(0, 8)}...: ${resources.length} recursos`);
+                } catch (e) {
+                    console.warn(`⚠️ No se pudo cargar Google Sheet:`, e.message);
+                }
+            }
+        }
+        
+        // 3. Combinar con recursos del config
+        configResources = getConfigResources();
+        console.log(`✅ Config JS: ${configResources.length} recursos`);
+        
+        // 4. Combinar todos
+        externalResources = [...jsonResources, ...sheetResources];
+        allResources = [...externalResources, ...configResources];
+        
+        console.log('\n=================================');
+        console.log(`📊 TOTAL: ${allResources.length} recursos`);
+        console.log(`   - JSON Files: ${jsonResources.length}`);
+        console.log(`   - Google Sheets: ${sheetResources.length}`);
+        console.log(`   - Config: ${configResources.length}`);
+        console.log('=================================\n');
+        
+        // Actualizar UI
+        updateStats();
+        renderResources();
+        
+    } catch (error) {
+        console.error('❌ Error general:', error);
+        container.innerHTML = `<div class="error-message">Error: ${error.message}</div>`;
+    }
+}
+
+// ============================================
+// CARGAR DESDE ARCHIVO JSON
+// ============================================
+
+async function loadFromJSON(filePath) {
+    const response = await fetch(filePath);
+    
+    if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    // Normalizar formato
+    const resources = data.resources || data || [];
+    
+    return resources.map(r => ({
+        ...r,
+        source_type: r.source_type || 'external',
+        // Normalizar estructura si es necesario
+        title: r.title,
+        url: r.url,
+        description: r.description || r.outcome || '',
+        source: r.source || 'Unknown',
+        format: r.format || 'video',
+        duration_seconds: r.duration_seconds || 300,
+        alignment: {
+            grade: r.alignment?.grade || r.grade || 'grade_1',
+            skill: r.alignment?.skill || r.skill || 'listening',
+            theme: r.alignment?.theme || r.theme || 'general'
+        },
+        tags: r.tags || []
+    }));
+}
+
+// ============================================
+// CARGAR DESDE GOOGLE SHEETS
+// ============================================
+
+async function loadFromGoogleSheet(sheetId) {
+    // URL de la API de Google Sheets (pública, sin autenticación)
+    const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
+    
+    try {
+        const response = await fetch(url);
+        const text = await response.text();
+        
+        // Google devuelve JSONP, necesitamos extraer el JSON
+        const jsonText = text.substring(47, text.length - 2);
+        const data = JSON.parse(jsonText);
+        
+        const rows = data.table.rows;
+        const resources = [];
+        
+        // Asumir que la primera fila es el header
+        // Columnas esperadas: Title, URL, Grade, Skill, Type, Duration, Description, Tags
+        
+        for (let i = 0; i < rows.length; i++) {
+            const row = rows[i].c;
+            
+            // Saltar filas vacías
+            if (!row || !row[0] || !row[1]) continue;
+            
+            try {
+                const resource = {
+                    id: `sheet_${sheetId.substring(0, 8)}_${i}`,
+                    title: row[0]?.v || '',
+                    url: row[1]?.v || '',
+                    alignment: {
+                        grade: row[2]?.v?.toLowerCase() || 'grade_1',
+                        skill: row[3]?.v?.toLowerCase() || 'listening',
+                        theme: 'custom'
+                    },
+                    format: row[4]?.v?.toLowerCase() || 'video',
+                    duration_seconds: parseDurationToSeconds(row[5]?.v) || 300,
+                    description: row[6]?.v || '',
+                    tags: row[7]?.v ? row[7].v.split(',').map(t => t.trim()) : [],
+                    source: 'Google Sheets',
+                    source_type: 'sheet',
+                    language: 'en',
+                    verified_by: 'User',
+                    date_added: new Date().toISOString().split('T')[0]
+                };
+                
+                resources.push(resource);
+            } catch (e) {
+                console.warn(`Error procesando fila ${i}:`, e);
+            }
+        }
+        
+        return resources;
+        
+    } catch (error) {
+        throw new Error(`Error cargando Google Sheet: ${error.message}`);
+    }
+}
+
+// ============================================
+// UTILIDADES
+// ============================================
+
+function parseDurationToSeconds(duration) {
+    if (!duration) return 300;
+    if (typeof duration === 'number') return duration;
+    
+    // Parsear formatos: "2:30", "5min", "150"
+    const str = String(duration).toLowerCase();
+    
+    if (str.includes(':')) {
+        const [min, sec] = str.split(':').map(Number);
+        return (min * 60) + (sec || 0);
+    }
+    
+    if (str.includes('min')) {
+        return parseInt(str) * 60;
+    }
+    
+    return parseInt(str) || 300;
+}
+
+// ============================================
+// FILTRADO Y RENDERIZADO
+// ============================================
+
+function getFilteredResources() {
+    const grade = document.getElementById('gradeSelect').value;
+    const skill = document.getElementById('skillSelect').value;
+    const format = document.getElementById('formatSelect').value;
+    const search = document.getElementById('searchInput').value.toLowerCase().trim();
+    
+    // Seleccionar fuente según tab
+    let source = allResources;
+    if (currentFilter === 'external') source = externalResources;
+    if (currentFilter === 'config') source = configResources;
+    
+    return source.filter(r => {
+        // Filtro grado
+        const matchGrade = !grade || r.alignment?.grade === grade;
+        
+        // Filtro skill
+        const matchSkill = !skill || r.alignment?.skill === skill;
+        
+        // Filtro formato
+        const matchFormat = !format || r.format === format;
+        
+        // Búsqueda
+        const matchSearch = !search || 
+            (r.title && r.title.toLowerCase().includes(search)) ||
+            (r.description && r.description.toLowerCase().includes(search)) ||
+            (r.tags && r.tags.some(t => t && t.toLowerCase().includes(search)));
+        
+        return matchGrade && matchSkill && matchFormat && matchSearch;
+    });
+}
+
+function renderResources() {
+    const container = document.getElementById('resourcesContainer');
+    const filtered = getFilteredResources();
+    
+    if (filtered.length === 0) {
+        container.innerHTML = '<div class="empty-state">No se encontraron recursos</div>';
+        updateStats();
+        return;
+    }
+    
+    // Agrupar por grado
+    const grouped = {};
+    filtered.forEach(r => {
+        const grade = r.alignment?.grade || 'unknown';
+        if (!grouped[grade]) grouped[grade] = [];
+        grouped[grade].push(r);
+    });
+    
+    const gradeNames = {
+        prek: 'Pre-Kinder',
+        kinder: 'Kinder',
+        grade_1: 'Grade 1',
+        grade_2: 'Grade 2',
+        grade_3: 'Grade 3',
+        grade_4: 'Grade 4',
+        grade_5: 'Grade 5',
+        grade_6: 'Grade 6',
+        unknown: 'Sin grado'
+    };
+    
+    let html = '';
+    
+    for (const grade in grouped) {
+        html += `<div class="scenario-section">`;
+        html += `<h3>${gradeNames[grade] || grade}</h3>`;
+        
+        grouped[grade].forEach(r => {
+            const badgeClass = r.source_type === 'external' ? 'external' : 'config';
+            const badgeText = r.source_type === 'external' ? 'External' : 'Config';
+            const duration = Math.floor((r.duration_seconds || 300) / 60);
+            
+            html += `
+                <div class="resource-card ${badgeClass}">
+                    <div class="resource-header">
+                        <h3>${escapeHtml(r.title)}</h3>
+                        <span class="badge ${badgeClass}">${badgeText}</span>
+                    </div>
+                    <p class="resource-outcome">${escapeHtml(r.description.substring(0, 120))}${r.description.length > 120 ? '...' : ''}</p>
+                    <div class="resource-meta">
+                        <span>🎯 ${r.alignment?.skill || 'general'}</span>
+                        <span>📺 ${r.source || 'Unknown'}</span>
+                        <span>⏱️ ${duration} min</span>
+                        <span>📝 ${r.format}</span>
+                    </div>
+                    <div class="resource-tags">
+                        ${(r.tags || []).slice(0, 3).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}
+                    </div>
+                    <a href="${r.url}" target="_blank" class="resource-link">Abrir Recurso ↗</a>
+                </div>
+            `;
+        });
+        
+        html += `</div>`;
+    }
+    
+    container.innerHTML = html;
+    updateStats(filtered.length);
+}
+
+function updateStats(shown) {
+    const statsEl = document.getElementById('resourceCount');
+    const total = currentFilter === 'all' ? allResources.length :
+                  currentFilter === 'external' ? externalResources.length :
+                  configResources.length;
+    
+    const shownCount = shown || getFilteredResources().length;
+    
+    let sourceText = '';
+    if (currentFilter === 'all') sourceText = 'todos los recursos';
+    else if (currentFilter === 'external') sourceText = 'recursos externos';
+    else sourceText = 'recursos del config';
+    
+    statsEl.innerHTML = `<strong>${shownCount}</strong> de <strong>${total}</strong> ${sourceText} mostrados`;
+}
+
+// ============================================
+// EVENT LISTENERS
+// ============================================
+
+function setupEventListeners() {
+    document.getElementById('gradeSelect').addEventListener('change', renderResources);
+    document.getElementById('skillSelect').addEventListener('change', renderResources);
+    document.getElementById('formatSelect').addEventListener('change', renderResources);
+    document.getElementById('searchInput').addEventListener('input', renderResources);
+    
+    document.getElementById('tabAll').addEventListener('click', () => {
+        currentFilter = 'all';
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.getElementById('tabAll').classList.add('active');
+        renderResources();
+    });
+    
+    document.getElementById('tabExternal').addEventListener('click', () => {
+        currentFilter = 'external';
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.getElementById('tabExternal').classList.add('active');
+        renderResources();
+    });
+    
+    document.getElementById('tabConfig').addEventListener('click', () => {
+        currentFilter = 'config';
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.getElementById('tabConfig').classList.add('active');
+        renderResources();
+    });
+}
+
+function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// ============================================
+// INICIALIZACIÓN
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('🚀 CLEAR iniciando...');
+    setupEventListeners();
+    loadAllResources();
+    
+    // Configurar botón de borrar caché
+    setupClearCache();
+    
+    // Registrar Service Worker para PWA
+    registerServiceWorker();
+    
+    // Detectar si la app puede instalarse
+    setupInstallPrompt();
+});
+
+// ============================================
+// SERVICE WORKER - PWA
+// ============================================
+function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./service-worker.js')
+            .then((registration) => {
+                console.log('✅ Service Worker registrado:', registration.scope);
+                
+                // Verificar actualizaciones cada 5 minutos
+                setInterval(() => {
+                    registration.update();
+                }, 5 * 60 * 1000);
+                
+                // Detectar cuando hay una nueva versión
+                registration.addEventListener('updatefound', () => {
+                    const newWorker = registration.installing;
+                    newWorker.addEventListener('statechange', () => {
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                            showUpdateNotification();
+                        }
+                    });
+                });
+            })
+            .catch((error) => {
+                console.error('❌ Error al registrar Service Worker:', error);
+            });
+            
+        // Recargar cuando el SW se activa
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+            if (!refreshing) {
+                refreshing = true;
+                window.location.reload();
+            }
+        });
+    }
+}
+
+// ============================================
+// BORRAR CACHÉ
+// ============================================
+function setupClearCache() {
+    const clearBtn = document.getElementById('clearCacheBtn');
+    const modal = document.getElementById('cacheModal');
+    const cancelBtn = document.getElementById('cancelBtn');
+    const confirmBtn = document.getElementById('confirmBtn');
+    
+    // Abrir modal
+    clearBtn.addEventListener('click', () => {
+        modal.classList.add('active');
+    });
+    
+    // Cancelar
+    cancelBtn.addEventListener('click', () => {
+        modal.classList.remove('active');
+    });
+    
+    // Cerrar al tocar fondo
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('active');
+        }
+    });
+    
+    // Confirmar borrado
+    confirmBtn.addEventListener('click', async () => {
+        modal.classList.remove('active');
+        
+        // Mostrar mensaje de progreso
+        showProgressMessage('🗑️ Borrando caché...');
+        
+        try {
+            // 1. Desregistrar Service Workers
+            if ('serviceWorker' in navigator) {
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                for (let registration of registrations) {
+                    await registration.unregister();
+                }
+                console.log('✅ Service Workers desregistrados');
+            }
+            
+            // 2. Borrar todos los caches
+            if ('caches' in window) {
+                const cacheNames = await caches.keys();
+                for (let cacheName of cacheNames) {
+                    await caches.delete(cacheName);
+                }
+                console.log('✅ Caches borrados');
+            }
+            
+            // 3. Borrar localStorage de esta app (opcional)
+            try {
+                localStorage.clear();
+                console.log('✅ localStorage borrado');
+            } catch (e) {
+                console.log('⚠️ No se pudo borrar localStorage');
+            }
+            
+            // Mostrar éxito
+            showProgressMessage('✅ Caché borrado. Recargando...', 'success');
+            
+            // Recargar después de 1 segundo
+            setTimeout(() => {
+                window.location.reload(true);
+            }, 1000);
+            
+        } catch (error) {
+            console.error('❌ Error al borrar caché:', error);
+            showProgressMessage('❌ Error al borrar caché', 'error');
+        }
+    });
+}
+
+function showProgressMessage(message, type = 'info') {
+    // Remover mensaje anterior si existe
+    const existing = document.getElementById('progressMessage');
+    if (existing) existing.remove();
+    
+    const colors = {
+        info: '#2196F3',
+        success: '#4CAF50',
+        error: '#F44336'
+    };
+    
+    const msg = document.createElement('div');
+    msg.id = 'progressMessage';
+    msg.textContent = message;
+    msg.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: ${colors[type]};
+        color: white;
+        padding: 1.5rem 2rem;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        z-index: 20000;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        text-align: center;
+        min-width: 250px;
+    `;
+    
+    document.body.appendChild(msg);
+    
+    // Auto-remover después de 3 segundos si no es éxito
+    if (type !== 'success') {
+        setTimeout(() => msg.remove(), 3000);
+    }
+}
+
+// ============================================
+// INSTALACIÓN PWA
+// ============================================
+let deferredPrompt;
+
+function setupInstallPrompt() {
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        showInstallButton();
+    });
+    
+    window.addEventListener('appinstalled', () => {
+        console.log('✅ PWA instalada correctamente');
+        deferredPrompt = null;
+        hideInstallButton();
+    });
+}
+
+function showInstallButton() {
+    // Crear botón de instalación si no existe
+    if (document.getElementById('installButton')) return;
+    
+    const installBtn = document.createElement('button');
+    installBtn.id = 'installButton';
+    installBtn.innerHTML = '📲 Instalar App';
+    installBtn.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: var(--primary);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 12px 24px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        box-shadow: 0 4px 12px rgba(46, 125, 50, 0.4);
+        cursor: pointer;
+        z-index: 1000;
+        transition: all 0.3s;
+    `;
+    
+    installBtn.addEventListener('click', async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            console.log(`Usuario ${outcome === 'accepted' ? 'aceptó' : 'rechazó'} la instalación`);
+            deferredPrompt = null;
+            hideInstallButton();
+        }
+    });
+    
+    document.body.appendChild(installBtn);
+}
+
+function hideInstallButton() {
+    const installBtn = document.getElementById('installButton');
+    if (installBtn) {
+        installBtn.remove();
+    }
+}
+
+// ============================================
+// NOTIFICACIÓN DE ACTUALIZACIÓN
+// ============================================
+function showUpdateNotification() {
+    const notification = document.createElement('div');
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--primary);
+        color: white;
+        padding: 16px 24px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 10000;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        max-width: 90%;
+    `;
+    
+    notification.innerHTML = `
+        <span>🔄 Nueva versión disponible</span>
+        <button id="updateBtn" style="
+            background: white;
+            color: var(--primary);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+        ">Actualizar</button>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    document.getElementById('updateBtn').addEventListener('click', () => {
+        if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.controller.postMessage({ type: 'SKIP_WAITING' });
+        }
+    });
+}
+
+// ============================================
+// ESTADO DE CONEXIÓN
+// ============================================
+window.addEventListener('online', () => {
+    console.log('🌐 Conexión restaurada');
+    showConnectionStatus('🌐 Conectado', '#4CAF50');
+});
+
+window.addEventListener('offline', () => {
+    console.log('📶 Sin conexión - Modo offline');
+    showConnectionStatus('📶 Modo Offline', '#FFC107');
+});
+
+function showConnectionStatus(message, color) {
+    const status = document.createElement('div');
+    status.style.cssText = `
+        position: fixed;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: ${color};
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        z-index: 10001;
+        animation: slideDown 0.3s ease;
+    `;
+    status.textContent = message;
+    
+    document.body.appendChild(status);
+    
+    setTimeout(() => {
+        status.style.animation = 'slideUp 0.3s ease';
+        setTimeout(() => status.remove(), 300);
+    }, 3000);
+}
+
+</script>
+
+</body>
+</html>

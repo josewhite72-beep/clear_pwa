@@ -1,0 +1,2413 @@
+{
+  "metadata": {
+    "project": "CuVA External Resources",
+    "disclaimer": "Independent project aligned with MEDUCA Panama curriculum. Not official MEDUCA content.",
+    "last_updated": "2026-02-18",
+    "total_resources": 96,
+    "verification_status": "CuVA Curated - URLs Reviewed & Fixed Feb 2026"
+  },
+  "resources": [
+    {
+      "id": "ext_001",
+      "title": "The Hello Song",
+      "description": "Greetings and introductions for beginners",
+      "url": "https://www.youtube.com/watch?v=tVlcKp3bO88",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "listening",
+        "theme": "greetings",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 120,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "greetings",
+        "beginner"
+      ]
+    },
+    {
+      "id": "ext_002",
+      "title": "Head Shoulders Knees and Toes",
+      "description": "Classic TPR song for body parts vocabulary",
+      "url": "https://www.youtube.com/watch?v=QkHQ0aE3B_4",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "listening",
+        "theme": "body",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 135,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "body_parts",
+        "tpr",
+        "song"
+      ]
+    },
+    {
+      "id": "ext_003",
+      "title": "Colors Song",
+      "description": "Color vocabulary with actions and TPR",
+      "url": "https://www.youtube.com/watch?v=qhOTU8_1v4Y",
+      "source": "Dream English Kids",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "listening",
+        "theme": "colors",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 150,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "colors",
+        "song",
+        "tpr"
+      ]
+    },
+    {
+      "id": "ext_004",
+      "title": "Animals Song",
+      "description": "Zoo animals vocabulary and sounds",
+      "url": "https://www.youtube.com/watch?v=IwZPzhGQumk",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "prek",
+        "skill": "listening",
+        "theme": "animals",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 175,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "animals",
+        "sounds",
+        "song"
+      ]
+    },
+    {
+      "id": "ext_005",
+      "title": "Oxford Owl Free eBooks",
+      "description": "Graded readers for early readers",
+      "url": "https://home.oxfordowl.co.uk/reading/free-ebooks/",
+      "source": "Oxford University Press",
+      "source_type": "website",
+      "alignment": {
+        "grade": "prek",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "Pre-A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 600,
+      "language": "en",
+      "license": "free_registration",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "stories",
+        "graded"
+      ]
+    },
+    {
+      "id": "ext_006",
+      "title": "StoryWeaver Picture Books",
+      "description": "Open source multilingual picture books",
+      "url": "https://storyweaver.org.in/stories?language=English",
+      "source": "Pratham Books",
+      "source_type": "website",
+      "alignment": {
+        "grade": "prek",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "Pre-A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 480,
+      "language": "en",
+      "license": "CC-BY",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "stories",
+        "open_source",
+        "picture_books"
+      ]
+    },
+    {
+      "id": "ext_007",
+      "title": "MES English Worksheets",
+      "description": "Printable vocabulary and writing worksheets",
+      "url": "https://www.mes-english.com/worksheets.php",
+      "source": "MES English",
+      "source_type": "website",
+      "alignment": {
+        "grade": "prek",
+        "skill": "writing",
+        "theme": "vocabulary",
+        "cefr": "Pre-A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "worksheets",
+        "printable"
+      ]
+    },
+    {
+      "id": "ext_008",
+      "title": "Speaking Practice - Greetings",
+      "description": "Dialogue practice for beginners",
+      "url": "https://learnenglishkids.britishcouncil.org/speaking-practice",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "prek",
+        "skill": "speaking",
+        "theme": "greetings",
+        "cefr": "Pre-A1"
+      },
+      "format": "interactive",
+      "duration_seconds": 600,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "dialogues",
+        "greetings"
+      ]
+    },
+    {
+      "id": "ext_009",
+      "title": "ABCya Pre-K Games",
+      "description": "Educational games for early learners",
+      "url": "https://www.abcya.com/grades/prek",
+      "source": "ABCya",
+      "source_type": "website",
+      "alignment": {
+        "grade": "prek",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "Pre-A1"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "interactive",
+        "skills"
+      ]
+    },
+    {
+      "id": "ext_010",
+      "title": "Alphabet Phonics Song",
+      "description": "Letter sounds and phonics introduction",
+      "url": "https://www.youtube.com/watch?v=75p-NQkYK-g",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "listening",
+        "theme": "phonics",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 210,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "phonics",
+        "alphabet",
+        "song"
+      ]
+    },
+    {
+      "id": "ext_011",
+      "title": "Family Members Song",
+      "description": "Vocabulary for family relationships",
+      "url": "https://www.youtube.com/watch?v=kg-9bbde5H0",
+      "source": "Maple Leaf Learning",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "listening",
+        "theme": "family",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 180,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "family",
+        "song",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "ext_012",
+      "title": "Starfall Learn to Read",
+      "description": "Interactive phonics books and activities",
+      "url": "https://www.starfall.com/h/ltr-classic/",
+      "source": "Starfall Education",
+      "source_type": "website",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "reading",
+        "theme": "phonics",
+        "cefr": "Pre-A1"
+      },
+      "format": "interactive",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "phonics",
+        "interactive"
+      ]
+    },
+    {
+      "id": "ext_013",
+      "title": "LiveWorksheets Interactive",
+      "description": "Interactive online worksheets",
+      "url": "https://www.liveworksheets.com/",
+      "source": "LiveWorksheets",
+      "source_type": "website",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "writing",
+        "theme": "mixed",
+        "cefr": "Pre-A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "interactive",
+        "worksheets"
+      ]
+    },
+    {
+      "id": "ext_014",
+      "title": "Phonics Chants",
+      "description": "Audio chants for pronunciation practice",
+      "url": "https://www.dreamenglish.com/chants",
+      "source": "Dream English",
+      "source_type": "website",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "speaking",
+        "theme": "phonics",
+        "cefr": "Pre-A1"
+      },
+      "format": "audio",
+      "duration_seconds": 480,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "chants",
+        "phonics"
+      ]
+    },
+    {
+      "id": "ext_015",
+      "title": "Starfall ABCs",
+      "description": "Alphabet and phonics games",
+      "url": "https://www.starfall.com/h/abcs/",
+      "source": "Starfall Education",
+      "source_type": "website",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "mediation",
+        "theme": "phonics",
+        "cefr": "Pre-A1"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "phonics",
+        "alphabet"
+      ]
+    },
+    {
+      "id": "ext_016",
+      "title": "Days of the Week Song",
+      "description": "Calendar vocabulary with catchy tune",
+      "url": "https://www.youtube.com/watch?v=36n93jvJKDg",
+      "source": "The Singing Walrus",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "listening",
+        "theme": "calendar",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 165,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "calendar",
+        "days",
+        "song"
+      ]
+    },
+    {
+      "id": "ext_017",
+      "title": "Numbers 1-10 Song",
+      "description": "Counting and number recognition",
+      "url": "https://www.youtube.com/watch?v=D0Ajq682yrA",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "listening",
+        "theme": "numbers",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 140,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "numbers",
+        "counting"
+      ]
+    },
+    {
+      "id": "ext_018",
+      "title": "Shapes Song",
+      "description": "Basic shapes vocabulary",
+      "url": "https://www.youtube.com/watch?v=pfRuLT-5av8",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "listening",
+        "theme": "shapes",
+        "cefr": "Pre-A1"
+      },
+      "format": "video",
+      "duration_seconds": 155,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "shapes",
+        "geometry"
+      ]
+    },
+    {
+      "id": "ext_019",
+      "title": "British Council LearnEnglish Kids - Numbers",
+      "description": "Interactive games for numbers 1-20",
+      "url": "https://learnenglishkids.britishcouncil.org/category/topics/numbers",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "numbers",
+        "cefr": "A1"
+      },
+      "format": "interactive",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "numbers",
+        "games",
+        "interactive"
+      ]
+    },
+    {
+      "id": "ext_020",
+      "title": "Oxford Reading Tree",
+      "description": "Biff, Chip and Kipper stories",
+      "url": "https://home.oxfordowl.co.uk/reading/reading-schemes/oxford-reading-tree/",
+      "source": "Oxford University Press",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 600,
+      "language": "en",
+      "license": "free_registration",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "stories",
+        "characters"
+      ]
+    },
+    {
+      "id": "ext_021",
+      "title": "Oxford Owl Reading Library",
+      "description": "Free online reading books for Grade 1 level",
+      "url": "https://www.oxfordowl.co.uk/for-home/find-a-book/library-page/",
+      "source": "Oxford University Press",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 480,
+      "language": "en",
+      "license": "CC-BY",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "stories",
+        "open_source",
+        "picture_books"
+      ]
+    },
+    {
+      "id": "ext_022",
+      "title": "British Council Writing Practice",
+      "description": "Writing activities and templates",
+      "url": "https://learnenglishkids.britishcouncil.org/writing-practice",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "writing",
+        "theme": "writing",
+        "cefr": "A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "practice",
+        "templates"
+      ]
+    },
+    {
+      "id": "ext_023",
+      "title": "Handwriting Worksheets",
+      "description": "Letter formation practice sheets",
+      "url": "https://www.mes-english.com/worksheets/phonics.php",
+      "source": "MES English",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "writing",
+        "theme": "handwriting",
+        "cefr": "Pre-A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "handwriting",
+        "letters"
+      ]
+    },
+    {
+      "id": "ext_024",
+      "title": "Tongue Twisters",
+      "description": "Pronunciation practice phrases",
+      "url": "https://learnenglishkids.britishcouncil.org/tongue-twisters",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "speaking",
+        "theme": "pronunciation",
+        "cefr": "A1"
+      },
+      "format": "interactive",
+      "duration_seconds": 300,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "pronunciation",
+        "tongue_twisters"
+      ]
+    },
+    {
+      "id": "ext_025",
+      "title": "British Council Games",
+      "description": "Grammar and vocabulary games",
+      "url": "https://learnenglishkids.britishcouncil.org/games",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "ext_026",
+      "title": "Toy Theater Games",
+      "description": "Educational games for young learners",
+      "url": "https://toytheater.com/category/language-arts/",
+      "source": "Toy Theater",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "mediation",
+        "theme": "language",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "language",
+        "interactive"
+      ]
+    },
+    {
+      "id": "ext_027",
+      "title": "Daily Routines Song",
+      "description": "Morning and daily activities vocabulary",
+      "url": "https://www.youtube.com/watch?v=5iOhzJdDM0Y",
+      "source": "English Singsing",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "daily_routines",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 240,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "routines",
+        "daily"
+      ]
+    },
+    {
+      "id": "ext_028",
+      "title": "Food Song",
+      "description": "Healthy food and meals vocabulary",
+      "url": "https://www.youtube.com/watch?v=YCf-PGu4kWM",
+      "source": "Dream English Kids",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "food",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 190,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "food",
+        "healthy"
+      ]
+    },
+    {
+      "id": "ext_029",
+      "title": "Clothes Song",
+      "description": "Clothing items and weather connection",
+      "url": "https://www.youtube.com/watch?v=9XKSfuzN1tU",
+      "source": "Maple Leaf Learning",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "clothes",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 170,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "clothes",
+        "weather"
+      ]
+    },
+    {
+      "id": "ext_030",
+      "title": "Weather Song",
+      "description": "Weather vocabulary and questions",
+      "url": "https://www.youtube.com/watch?v=I8GeA7anP1w",
+      "source": "Pancake Manor",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "weather",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 145,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "weather",
+        "song",
+        "questions"
+      ]
+    },
+    {
+      "id": "ext_031",
+      "title": "Storyline Online",
+      "description": "Famous actors read children's books",
+      "url": "https://www.storylineonline.net/",
+      "source": "SAG-AFTRA Foundation",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "stories",
+        "celebrity"
+      ]
+    },
+    {
+      "id": "ext_032",
+      "title": "Story Writing Template",
+      "description": "Printable story writing template with beginning, middle, and end",
+      "url": "https://www.teacherspayteachers.com/FreeDownload/Story-Writing-Template",
+      "source": "Teachers Pay Teachers",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "writing",
+        "theme": "creative_writing",
+        "cefr": "A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "creative",
+        "stories"
+      ]
+    },
+    {
+      "id": "ext_033",
+      "title": "Role Play Scenarios",
+      "description": "Dialogue and role play activities",
+      "url": "https://www.mes-english.com/games.php",
+      "source": "MES English",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "speaking",
+        "theme": "roleplay",
+        "cefr": "A1"
+      },
+      "format": "interactive",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "roleplay",
+        "dialogues"
+      ]
+    },
+    {
+      "id": "ext_034",
+      "title": "Funbrain Games",
+      "description": "Reading and math games",
+      "url": "https://www.funbrain.com/games",
+      "source": "Funbrain",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "reading",
+        "math"
+      ]
+    },
+    {
+      "id": "ext_035",
+      "title": "PBS Kids Games",
+      "description": "Educational games with popular characters",
+      "url": "https://pbskids.org/games/",
+      "source": "PBS Kids",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "characters",
+        "educational"
+      ]
+    },
+    {
+      "id": "ext_036",
+      "title": "Emotions Song",
+      "description": "Feelings and emotions vocabulary",
+      "url": "https://www.youtube.com/watch?v=5vS6Q7q_GDQ",
+      "source": "Super Simple Songs",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "listening",
+        "theme": "emotions",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 160,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "emotions",
+        "feelings"
+      ]
+    },
+    {
+      "id": "ext_037",
+      "title": "Jobs Song",
+      "description": "Community helpers and occupations",
+      "url": "https://www.youtube.com/watch?v=3Wn-0nWmxJk",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "listening",
+        "theme": "jobs",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 195,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "jobs",
+        "occupations"
+      ]
+    },
+    {
+      "id": "ext_038",
+      "title": "School Supplies Song",
+      "description": "Classroom objects vocabulary",
+      "url": "https://www.youtube.com/watch?v=g7kK989HiRQ",
+      "source": "Dream English Kids",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "listening",
+        "theme": "school",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 175,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "school",
+        "classroom"
+      ]
+    },
+    {
+      "id": "ext_039",
+      "title": "National Geographic Kids",
+      "description": "Non-fiction articles and photos",
+      "url": "https://kids.nationalgeographic.com/",
+      "source": "National Geographic",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "reading",
+        "theme": "science",
+        "cefr": "A1+"
+      },
+      "format": "ebook",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "science",
+        "nature"
+      ]
+    },
+    {
+      "id": "ext_040",
+      "title": "CommonLit Free Library",
+      "description": "Free reading passages and literary texts for students",
+      "url": "https://www.commonlit.org/",
+      "source": "CommonLit",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "reading",
+        "theme": "culture",
+        "cefr": "A1+"
+      },
+      "format": "ebook",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "multicultural",
+        "international"
+      ]
+    },
+    {
+      "id": "ext_041",
+      "title": "English Grammar Worksheets",
+      "description": "Grammar lessons and practice for elementary students",
+      "url": "https://www.englishgrammar.org/",
+      "source": "EnglishGrammar.org",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "writing",
+        "theme": "grammar",
+        "cefr": "A1+"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "grammar",
+        "practice"
+      ]
+    },
+    {
+      "id": "ext_042",
+      "title": "Sentence Building",
+      "description": "Sentence structure worksheets",
+      "url": "https://www.liveworksheets.com/search-worksheets/subject/english-language-2818330",
+      "source": "LiveWorksheets",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "writing",
+        "theme": "sentences",
+        "cefr": "A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "sentences",
+        "structure"
+      ]
+    },
+    {
+      "id": "ext_043",
+      "title": "Show and Tell",
+      "description": "Presentation skills practice",
+      "url": "https://learnenglishkids.britishcouncil.org/speaking-practice",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "speaking",
+        "theme": "presentations",
+        "cefr": "A1+"
+      },
+      "format": "interactive",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "presentations",
+        "show_tell"
+      ]
+    },
+    {
+      "id": "ext_044",
+      "title": "National Geographic Kids Games",
+      "description": "Science and nature games",
+      "url": "https://kids.nationalgeographic.com/games",
+      "source": "National Geographic",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "mediation",
+        "theme": "science",
+        "cefr": "A1+"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "science",
+        "nature"
+      ]
+    },
+    {
+      "id": "ext_045",
+      "title": "Flippity Flashcards",
+      "description": "Create custom flashcards",
+      "url": "https://www.flippity.net/",
+      "source": "Flippity",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "mediation",
+        "theme": "vocabulary",
+        "cefr": "A1+"
+      },
+      "format": "interactive",
+      "duration_seconds": 600,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "flashcards",
+        "vocabulary",
+        "custom"
+      ]
+    },
+    {
+      "id": "ext_046",
+      "title": "Months of the Year Song",
+      "description": "Calendar and months vocabulary",
+      "url": "https://www.youtube.com/watch?v=Fe9u6aBjH8U",
+      "source": "The Singing Walrus",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "listening",
+        "theme": "calendar",
+        "cefr": "A1+"
+      },
+      "format": "video",
+      "duration_seconds": 180,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "months",
+        "calendar"
+      ]
+    },
+    {
+      "id": "ext_047",
+      "title": "Continents Song",
+      "description": "Geography and world continents",
+      "url": "https://www.youtube.com/watch?v=K6DSMZ8b3LE",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "listening",
+        "theme": "geography",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 210,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "continents",
+        "geography"
+      ]
+    },
+    {
+      "id": "ext_048",
+      "title": "Solar System Song",
+      "description": "Planets and space vocabulary",
+      "url": "https://www.youtube.com/watch?v=BZ-qLUIj_AE",
+      "source": "Kids Learning Tube",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "listening",
+        "theme": "space",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 240,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "space",
+        "planets"
+      ]
+    },
+    {
+      "id": "ext_049",
+      "title": "Human Body Song",
+      "description": "Body systems: skeleton, muscles, organs explained through song",
+      "url": "https://www.youtube.com/watch?v=Jg2nJbDpKDs",
+      "source": "Mr. R's Songs for Teaching",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "listening",
+        "theme": "body",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 260,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "body",
+        "science"
+      ]
+    },
+    {
+      "id": "ext_050",
+      "title": "ReadWorks",
+      "description": "Reading comprehension passages and questions",
+      "url": "https://www.readworks.org/",
+      "source": "ReadWorks",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "reading",
+        "theme": "comprehension",
+        "cefr": "A2"
+      },
+      "format": "ebook",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "comprehension",
+        "non_fiction"
+      ]
+    },
+    {
+      "id": "ext_051",
+      "title": "Time for Kids",
+      "description": "News and current events for kids",
+      "url": "https://timeforkids.com/",
+      "source": "TIME",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "reading",
+        "theme": "news",
+        "cefr": "A2"
+      },
+      "format": "ebook",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "news",
+        "current_events"
+      ]
+    },
+    {
+      "id": "ext_052",
+      "title": "ESL Printables - Paragraph Writing",
+      "description": "Paragraph writing worksheets for ESL learners",
+      "url": "https://www.eslprintables.com/",
+      "source": "ESL Printables",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "writing",
+        "theme": "paragraphs",
+        "cefr": "A2"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "paragraphs",
+        "organization"
+      ]
+    },
+    {
+      "id": "ext_053",
+      "title": "Conversation Questions for Kids",
+      "description": "Discussion prompts and speaking practice",
+      "url": "https://learnenglishkids.britishcouncil.org/speaking-practice",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "speaking",
+        "theme": "conversation",
+        "cefr": "A2"
+      },
+      "format": "interactive",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "conversation",
+        "questions"
+      ]
+    },
+    {
+      "id": "ext_054",
+      "title": "NASA Kids Club",
+      "description": "Space and science games",
+      "url": "https://www.nasa.gov/stem/nextgenstem/nasa-kids-club/",
+      "source": "NASA",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "mediation",
+        "theme": "space",
+        "cefr": "A2"
+      },
+      "format": "game",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "space",
+        "science"
+      ]
+    },
+    {
+      "id": "ext_055",
+      "title": "Wordwall Games",
+      "description": "Interactive vocabulary games",
+      "url": "https://wordwall.net/",
+      "source": "Wordwall",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "mediation",
+        "theme": "vocabulary",
+        "cefr": "A2"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "vocabulary",
+        "interactive"
+      ]
+    },
+    {
+      "id": "ext_056",
+      "title": "ClassTools",
+      "description": "Interactive learning tools",
+      "url": "https://www.classtools.net/",
+      "source": "ClassTools",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "A2"
+      },
+      "format": "interactive",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "tools",
+        "interactive",
+        "activities"
+      ]
+    },
+    {
+      "id": "ext_057",
+      "title": "Irregular Verbs Song",
+      "description": "Common irregular verbs in past tense",
+      "url": "https://www.youtube.com/watch?v=R9U0C9n6c_w",
+      "source": "English with Lucy",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 280,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "verbs",
+        "past_tense"
+      ]
+    },
+    {
+      "id": "ext_058",
+      "title": "Comparatives Song",
+      "description": "Comparative adjectives grammar",
+      "url": "https://www.youtube.com/watch?v=6n4qBdey-Jw",
+      "source": "English with Lucy",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 220,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "comparatives"
+      ]
+    },
+    {
+      "id": "ext_059",
+      "title": "Prepositions Song",
+      "description": "Place prepositions in, on, under, behind",
+      "url": "https://www.youtube.com/watch?v=_lLtl5p8-00",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "A1+"
+      },
+      "format": "video",
+      "duration_seconds": 190,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "prepositions"
+      ]
+    },
+    {
+      "id": "ext_060",
+      "title": "Past Simple Song",
+      "description": "Regular verbs past tense",
+      "url": "https://www.youtube.com/watch?v=8qYj9l8k1nY",
+      "source": "English with Lucy",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 240,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "past_simple"
+      ]
+    },
+    {
+      "id": "ext_061",
+      "title": "Newsela",
+      "description": "Current events articles at different levels",
+      "url": "https://newsela.com/",
+      "source": "Newsela",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "reading",
+        "theme": "news",
+        "cefr": "A2"
+      },
+      "format": "ebook",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "news",
+        "current_events"
+      ]
+    },
+    {
+      "id": "ext_062",
+      "title": "Wonderopolis",
+      "description": "Daily wonders and questions",
+      "url": "https://www.wonderopolis.org/",
+      "source": "NCFL",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "reading",
+        "theme": "science",
+        "cefr": "A2"
+      },
+      "format": "ebook",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "science",
+        "questions"
+      ]
+    },
+    {
+      "id": "ext_063",
+      "title": "Essay Writing Guide",
+      "description": "Step-by-step guide to writing essays in English",
+      "url": "https://www.englishclub.com/writing/essays.htm",
+      "source": "EnglishClub",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "writing",
+        "theme": "essays",
+        "cefr": "A2"
+      },
+      "format": "worksheet",
+      "duration_seconds": 2400,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "essays",
+        "planning"
+      ]
+    },
+    {
+      "id": "ext_064",
+      "title": "Debate Topics for Kids",
+      "description": "Simple debate topics and discussion",
+      "url": "https://learnenglishkids.britishcouncil.org/speaking-practice",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "speaking",
+        "theme": "debate",
+        "cefr": "A2"
+      },
+      "format": "interactive",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "debate",
+        "argumentation"
+      ]
+    },
+    {
+      "id": "ext_065",
+      "title": "Code.org",
+      "description": "Coding and computer science",
+      "url": "https://code.org/",
+      "source": "Code.org",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "mediation",
+        "theme": "coding",
+        "cefr": "A2"
+      },
+      "format": "game",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "coding",
+        "computer_science"
+      ]
+    },
+    {
+      "id": "ext_066",
+      "title": "Kahoot Quizzes",
+      "description": "Quiz games for classroom",
+      "url": "https://kahoot.com/",
+      "source": "Kahoot",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "mediation",
+        "theme": "assessment",
+        "cefr": "A2"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "quiz",
+        "assessment",
+        "competitive"
+      ]
+    },
+    {
+      "id": "ext_067",
+      "title": "Present Perfect Song",
+      "description": "Present perfect tense explanation",
+      "url": "https://www.youtube.com/watch?v=QYn6C3Y8h8I",
+      "source": "English with Lucy",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "B1"
+      },
+      "format": "video",
+      "duration_seconds": 300,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "present_perfect"
+      ]
+    },
+    {
+      "id": "ext_068",
+      "title": "Conditionals Song",
+      "description": "First conditional if clauses",
+      "url": "https://www.youtube.com/watch?v=1gU1q6n8Q1k",
+      "source": "English with Lucy",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "B1"
+      },
+      "format": "video",
+      "duration_seconds": 280,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "conditionals"
+      ]
+    },
+    {
+      "id": "ext_069",
+      "title": "Passive Voice Song",
+      "description": "Passive voice structure and usage explained with examples",
+      "url": "https://www.youtube.com/watch?v=bWFRqKNTkAQ",
+      "source": "Learn English with TV Series",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "B1"
+      },
+      "format": "video",
+      "duration_seconds": 320,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "passive_voice"
+      ]
+    },
+    {
+      "id": "ext_070",
+      "title": "Reported Speech Song",
+      "description": "Indirect speech rules and practice",
+      "url": "https://www.youtube.com/watch?v=3nK1KxW8J8Y",
+      "source": "English with Lucy",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "B1"
+      },
+      "format": "video",
+      "duration_seconds": 340,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "grammar",
+        "reported_speech"
+      ]
+    },
+    {
+      "id": "ext_071",
+      "title": "Project Gutenberg Kids",
+      "description": "Classic children's literature",
+      "url": "https://www.gutenberg.org/ebooks/bookshelf/49",
+      "source": "Project Gutenberg",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "reading",
+        "theme": "classics",
+        "cefr": "B1"
+      },
+      "format": "ebook",
+      "duration_seconds": 3600,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "classics",
+        "literature"
+      ]
+    },
+    {
+      "id": "ext_072",
+      "title": "BBC Learning English - Kids",
+      "description": "Short dramas and activities",
+      "url": "https://www.bbc.co.uk/learningenglish/english/features/drama",
+      "source": "BBC",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "reading",
+        "theme": "drama",
+        "cefr": "B1"
+      },
+      "format": "audio",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "audio",
+        "drama",
+        "stories"
+      ]
+    },
+    {
+      "id": "ext_073",
+      "title": "OpenLearn English Language",
+      "description": "Free courses from Open University",
+      "url": "https://www.open.edu/openlearn/languages/free-courses/",
+      "source": "The Open University",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "writing",
+        "theme": "grammar",
+        "cefr": "B1"
+      },
+      "format": "course",
+      "duration_seconds": 3600,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "course",
+        "grammar",
+        "advanced"
+      ]
+    },
+    {
+      "id": "ext_074",
+      "title": "Creative Writing Prompts",
+      "description": "Hundreds of creative writing prompts and story ideas",
+      "url": "https://www.creativewritingprompts.com/",
+      "source": "CreativeWritingPrompts.com",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "writing",
+        "theme": "creative_writing",
+        "cefr": "B1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "writing",
+        "creative",
+        "prompts"
+      ]
+    },
+    {
+      "id": "ext_075",
+      "title": "Public Speaking Tips",
+      "description": "Presentation and speech skills",
+      "url": "https://learnenglishkids.britishcouncil.org/speaking-practice",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "speaking",
+        "theme": "public_speaking",
+        "cefr": "B1"
+      },
+      "format": "interactive",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "speaking",
+        "presentations",
+        "public_speaking"
+      ]
+    },
+    {
+      "id": "ext_076",
+      "title": "Khan Academy",
+      "description": "Interactive lessons and practice",
+      "url": "https://www.khanacademy.org/",
+      "source": "Khan Academy",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "B1"
+      },
+      "format": "interactive",
+      "duration_seconds": 2400,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "lessons",
+        "practice",
+        "comprehensive"
+      ]
+    },
+    {
+      "id": "ext_077",
+      "title": "Quizizz",
+      "description": "Interactive quizzes and homework",
+      "url": "https://quizizz.com/",
+      "source": "Quizizz",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "mediation",
+        "theme": "assessment",
+        "cefr": "B1"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "quiz",
+        "homework",
+        "self_paced"
+      ]
+    },
+    {
+      "id": "ext_078",
+      "title": "Nearpod Lessons",
+      "description": "Interactive lesson platform",
+      "url": "https://nearpod.com/",
+      "source": "Nearpod",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "B1"
+      },
+      "format": "interactive",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "lessons",
+        "interactive",
+        "comprehensive"
+      ]
+    },
+    {
+      "id": "ext_079",
+      "title": "Cambridge English Activities",
+      "description": "Activities by CEFR level",
+      "url": "https://www.cambridgeenglish.org/learning-english/activities-for-learners/",
+      "source": "Cambridge",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "mediation",
+        "theme": "mixed",
+        "cefr": "B1"
+      },
+      "format": "interactive",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "activities",
+        "cefr",
+        "structured"
+      ]
+    },
+    {
+      "id": "ext_080",
+      "title": "Smithsonian Learning Lab",
+      "description": "Museum collections and activities",
+      "url": "https://learninglab.si.edu/",
+      "source": "Smithsonian",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "mediation",
+        "theme": "history",
+        "cefr": "B1"
+      },
+      "format": "interactive",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "history",
+        "museum",
+        "collections"
+      ]
+    },
+    {
+      "id": "ext_081",
+      "title": "Transportation Song",
+      "description": "Vehicles and transportation vocabulary",
+      "url": "https://www.youtube.com/watch?v=1qW5H4_0XJc",
+      "source": "Kids TV 123",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "transportation",
+        "cefr": "A1"
+      },
+      "format": "video",
+      "duration_seconds": 185,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "transportation",
+        "vehicles"
+      ]
+    },
+    {
+      "id": "ext_082",
+      "title": "Nature and Environment Song",
+      "description": "Nature vocabulary: trees, flowers, rivers and environment",
+      "url": "https://www.youtube.com/watch?v=RYSYbhViwFw",
+      "source": "Kids Learning Tube",
+      "source_type": "YouTube",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "listening",
+        "theme": "nature",
+        "cefr": "A1+"
+      },
+      "format": "video",
+      "duration_seconds": 200,
+      "language": "en",
+      "license": "free_youtube",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "song",
+        "nature",
+        "environment"
+      ]
+    },
+    {
+      "id": "ext_083",
+      "title": "Epic Books Library",
+      "description": "Digital library for kids, free for educators",
+      "url": "https://www.getepic.com/",
+      "source": "Epic",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "library",
+        "digital"
+      ]
+    },
+    {
+      "id": "ext_084",
+      "title": "Scholastic Classroom Magazines",
+      "description": "Educational magazines and reading materials",
+      "url": "https://classroommagazines.scholastic.com/",
+      "source": "Scholastic",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "reading",
+        "theme": "mixed",
+        "cefr": "A1+"
+      },
+      "format": "ebook",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "activities",
+        "daily"
+      ]
+    },
+    {
+      "id": "ext_085",
+      "title": "British Council Short Stories",
+      "description": "Graded short stories with audio",
+      "url": "https://learnenglishkids.britishcouncil.org/short-stories",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "reading",
+        "theme": "stories",
+        "cefr": "A1"
+      },
+      "format": "ebook",
+      "duration_seconds": 720,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "reading",
+        "stories",
+        "audio"
+      ]
+    },
+    {
+      "id": "ext_086",
+      "title": "MES Games Online",
+      "description": "Vocabulary building games",
+      "url": "https://www.mes-games.com/",
+      "source": "MES English",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "mediation",
+        "theme": "vocabulary",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "vocabulary",
+        "online"
+      ]
+    },
+    {
+      "id": "ext_087",
+      "title": "123 Listening",
+      "description": "Listening tests and audio",
+      "url": "https://www.123listening.com/",
+      "source": "123 Listening",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "listening",
+        "theme": "listening",
+        "cefr": "A1"
+      },
+      "format": "audio",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "listening",
+        "audio",
+        "tests"
+      ]
+    },
+    {
+      "id": "ext_088",
+      "title": "Fun Fonix Phonics",
+      "description": "Phonics worksheets and workbooks",
+      "url": "https://www.funfonix.com/",
+      "source": "Fun Fonix",
+      "source_type": "website",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "writing",
+        "theme": "phonics",
+        "cefr": "Pre-A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1500,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "phonics",
+        "worksheets",
+        "workbooks"
+      ]
+    },
+    {
+      "id": "ext_089",
+      "title": "Tools for Educators",
+      "description": "Custom worksheet makers",
+      "url": "https://www.toolsforeducators.com/",
+      "source": "Tools for Educators",
+      "source_type": "website",
+      "alignment": {
+        "grade": "kinder",
+        "skill": "writing",
+        "theme": "mixed",
+        "cefr": "Pre-A1"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "worksheets",
+        "custom",
+        "generators"
+      ]
+    },
+    {
+      "id": "ext_090",
+      "title": "Edpuzzle Video Lessons",
+      "description": "Interactive video lessons",
+      "url": "https://edpuzzle.com/",
+      "source": "Edpuzzle",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "listening",
+        "theme": "mixed",
+        "cefr": "A2"
+      },
+      "format": "interactive",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "video",
+        "interactive",
+        "questions"
+      ]
+    },
+    {
+      "id": "ext_091",
+      "title": "Duolingo for Schools",
+      "description": "Gamified language learning",
+      "url": "https://schools.duolingo.com/",
+      "source": "Duolingo",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_4",
+        "skill": "mediation",
+        "theme": "language",
+        "cefr": "A2"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "language",
+        "gamified",
+        "practice"
+      ]
+    },
+    {
+      "id": "ext_092",
+      "title": "British Council Grammar Videos",
+      "description": "Grammar explanation videos",
+      "url": "https://learnenglishkids.britishcouncil.org/grammar-videos",
+      "source": "British Council",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_5",
+        "skill": "listening",
+        "theme": "grammar",
+        "cefr": "A2"
+      },
+      "format": "video",
+      "duration_seconds": 600,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "video",
+        "grammar",
+        "explanations"
+      ]
+    },
+    {
+      "id": "ext_093",
+      "title": "The Blue Book of Grammar",
+      "description": "Clear grammar rules and exercises for English learners",
+      "url": "https://www.grammarbook.com/",
+      "source": "GrammarBook.com",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_3",
+        "skill": "writing",
+        "theme": "mixed",
+        "cefr": "A1+"
+      },
+      "format": "worksheet",
+      "duration_seconds": 1800,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "worksheets",
+        "printable",
+        "grammar"
+      ]
+    },
+    {
+      "id": "ext_094",
+      "title": "Google Arts & Culture",
+      "description": "Virtual museum tours",
+      "url": "https://artsandculture.google.com/",
+      "source": "Google",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_6",
+        "skill": "mediation",
+        "theme": "culture",
+        "cefr": "B1"
+      },
+      "format": "interactive",
+      "duration_seconds": 2400,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "culture",
+        "art",
+        "museums",
+        "virtual_tours"
+      ]
+    },
+    {
+      "id": "ext_095",
+      "title": "Reading Rainbow",
+      "description": "Books, videos, and activities for young readers",
+      "url": "https://www.readingrainbow.com/",
+      "source": "Reading Rainbow",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_1",
+        "skill": "mediation",
+        "theme": "literature",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 900,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "games",
+        "dr_seuss",
+        "literature"
+      ]
+    },
+    {
+      "id": "ext_096",
+      "title": "Highlights Kids",
+      "description": "Puzzles and activities",
+      "url": "https://www.highlightskids.com/",
+      "source": "Highlights",
+      "source_type": "website",
+      "alignment": {
+        "grade": "grade_2",
+        "skill": "mediation",
+        "theme": "puzzles",
+        "cefr": "A1"
+      },
+      "format": "game",
+      "duration_seconds": 1200,
+      "language": "en",
+      "license": "free_educational",
+      "verified_by": "CuVA panel",
+      "date_added": "2024-02-18",
+      "tags": [
+        "puzzles",
+        "activities",
+        "thinking"
+      ]
+    }
+  ]
+}

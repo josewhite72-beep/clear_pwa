@@ -4,8 +4,8 @@
  * Estrategia: Cache First para recursos estáticos, Network First para datos
  */
 
-const CACHE_NAME = 'clear-pwa-v2.0.0';
-const DATA_CACHE_NAME = 'clear-data-v2.0.0';
+const CACHE_NAME = 'clear-pwa-v2.5.0';
+const DATA_CACHE_NAME = 'clear-data-v2.5.0';
 
 // Archivos estáticos a cachear en la instalación
 const STATIC_ASSETS = [
